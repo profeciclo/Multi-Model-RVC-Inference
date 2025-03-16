@@ -385,5 +385,6 @@ monotonic_align/core.c
 *.pt
 output
 
+# Ignorar los pesos y los modelos que ocupan mucho espacio
 /weights
 /assets
