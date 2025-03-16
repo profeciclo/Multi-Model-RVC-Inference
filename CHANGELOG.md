@@ -1,3 +1,7 @@
+16/03/2025 Changelog: <br />
+- Adaptado para usar CPU
+- Copiados modelos, pero ignorar con .gitignore para que no se suban a github
+- 
 02/03/2024 Changelog: <br />
 - Rearrange code and update dependencies.
 - Add batch and shell command for easy installation.
