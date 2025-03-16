@@ -1,4 +1,3 @@
-@ECHO OFF
 
 rem Check if Python exists
 python --version > NUL 2>&1

@@ -204,7 +204,7 @@ def load_model():
                 if pth_files == []:
                     logger.debug(f"Model [{model_count}/{len(w_dirs)}]: No Model file detected, skipping...")
                     continue
-                cpt = torch.load(pth_files[0])
+                cpt = torch.load(pth_files[0], map_location=torch.device('cpu'))
                 tgt_sr = cpt["config"][-1]
                 cpt["config"][-3] = cpt["weight"]["emb_g.weight"].shape[0]  # n_spk
                 if_f0 = cpt.get("f0", 1)

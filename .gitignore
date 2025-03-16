@@ -384,3 +384,6 @@ monotonic_align/core.c
 .venv
 *.pt
 output
+
+/weights
+/assets
