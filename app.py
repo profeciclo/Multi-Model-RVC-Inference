@@ -290,7 +290,9 @@ if __name__ == '__main__':
                                                 # Input
                                                 vc_input = gr.Textbox(label="Input audio path", visible=False)
                                                 # Upload
-                                                vc_upload = gr.Audio(label="Upload audio file", sources=["upload", "microphone"], visible=True, interactive=True)
+                                                #vc_upload = gr.Audio(label="Upload audio file", sources=["upload", "microphone"], visible=True, interactive=True)
+                                                vc_upload = gr.Audio(label="Upload audio file", visible=True, interactive=True)
+
                                                 # Youtube
                                                 vc_download_audio = gr.Dropdown(label="Provider", choices=["Youtube"], allow_custom_value=False, visible=False, value="Youtube", info="Select provider (Default: Youtube)")
                                                 vc_link = gr.Textbox(label="Youtube URL", visible=False, info="Example: https://www.youtube.com/watch?v=Nc0sB1Bmf-A", placeholder="https://www.youtube.com/watch?v=...")
@@ -392,7 +394,9 @@ if __name__ == '__main__':
                                         # Input
                                         vc_input = gr.Textbox(label="Input audio path", visible=False)
                                         # Upload
-                                        vc_upload = gr.Audio(label="Upload audio file", sources=["upload", "microphone"], visible=True, interactive=True)
+                                        #vc_upload = gr.Audio(label="Upload audio file", sources=["upload", "microphone"], visible=True, interactive=True)
+                                        vc_upload = gr.Audio(label="Upload audio file", visible=True, interactive=True)
+
                                         # Youtube
                                         vc_download_audio = gr.Dropdown(label="Provider", choices=["Youtube"], allow_custom_value=False, visible=False, value="Youtube", info="Select provider (Default: Youtube)")
                                         vc_link = gr.Textbox(label="Youtube URL", visible=False, info="Example: https://www.youtube.com/watch?v=Nc0sB1Bmf-A", placeholder="https://www.youtube.com/watch?v=...")
